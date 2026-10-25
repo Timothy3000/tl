@@ -29,10 +29,10 @@
 Просто скопируйте файл с функциями в свой проект или импортируйте его напрямую:
 
 ```python
-from utils import seti, st, st2, z, log, getv, er, w, debug, d
+from tlogs import *
 ```
 
-> Требуется Python 3.6+ (используются f-strings).
+> Требуется Python 3.6+
 
 ---
 
