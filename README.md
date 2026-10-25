@@ -177,7 +177,7 @@ d("temp.txt")
 ## 💡 Пример использования
 
 ```python
-from utils import st, seti, z, log, er, w, debug, d, getv
+from tlogs import *
 
 def main():
     log(f"Version: {getv()}")
