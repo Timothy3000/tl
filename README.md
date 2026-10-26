@@ -183,7 +183,7 @@ def main():
     log(f"Version: {getv()}")
     st()
     seti("database")
-    z("client", "server")
+    z("client", "3.0.4")
     debug("Initialization complete")
     w("Cache is empty")
     d("old_log.txt")
@@ -198,7 +198,7 @@ if __name__ == "__main__":
 Version: 1-0-5
 Starting...
 Seting  database ...
-client vserver started
+client v3.0.4 started
 DEBUG: Initialization complete
 W:  Cache is empty
 file old_log.txt deleted
@@ -212,7 +212,6 @@ E:  Something went wrong
 - Все функции выводят данные в `stdout` через `print()`.
 - Функции `er`, `w` и `debug` не прерывают выполнение программы — это просто обёртки над `print`.
 - `d()` только **сообщает** об удалении файла, но **не удаляет** его физически.
-- `getv()` возвращает жёстко заданную строку — не забудьте обновить её вручную при выпуске новой версии.
 
 ---
 
