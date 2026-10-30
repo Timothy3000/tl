@@ -1,4 +1,7 @@
-# 📦 Мини-библиотека утилит
+# 📦 Библиотека tlogs
+
+![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=flat&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Небольшая Python-библиотека с набором вспомогательных функций для логирования, вывода сообщений и работы с версиями. Подходит для быстрого прототипирования, моков и демонстрационных скриптов.
 
